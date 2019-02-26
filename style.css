@@ -1,0 +1,39 @@
+.box {
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    box-sizing: border-box;
+    flex-basis: 150px;
+    flex-grow: 1;
+    /* flex-grow : 1;  flex-grow's default value is 0 그리고 flex-grow의 값이 비율을 뜻한다기 보다는 사이즈가 그 값이 빠르기를 표현함.(브라우저를 줄이거나 키울때 )*/ 
+}
+
+
+.box-1 {
+    flex-grow:3;
+    background-color: red;
+    /* flex-grow:1; */
+}
+.box-2 {
+    background-color: orangered;
+}
+.box-3 {
+    background-color:  orange;
+    /* flex-basis: 300px; */
+}
+.box-4 {
+    background-color :yellow;
+    flex-grow: 1;
+}
+
+
+.container {
+    display:flex;
+    border: 10px solid black;
+    height: 100vh;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    /* flex-direction: column; */
+
+}
